@@ -1,0 +1,6 @@
+#include "Bigram.h"
+
+/*THERE IS NORTHING, BECAUSE BIGRAM IS PURE ABSTRACT. GO TO HEADER*/
+
+
+

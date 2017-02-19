@@ -1,0 +1,2 @@
+MOV R1, 10     ; line 1
+PRN R1         ; line 2

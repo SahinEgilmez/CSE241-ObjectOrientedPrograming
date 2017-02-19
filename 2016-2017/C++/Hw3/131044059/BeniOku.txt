@@ -1,0 +1,2 @@
+Program Yusuf hocanın izin verdiği gibi c++11 standardında hazırlanmıştır.
+Programda MOV,R1,R2 denildiğinde R2 yi R1 registerına konulmuştur. Klasik dıştan içe kuralı takip edilmiştir. pdf de bir anlam karmaşası sezdiğim için bunu belirtmek istedim.

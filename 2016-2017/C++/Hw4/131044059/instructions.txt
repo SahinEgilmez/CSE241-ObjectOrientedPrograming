@@ -1,0 +1,104 @@
+MOV #1,30; line 1
+MOV #2,23 ;line 2
+MOV #3 ,4 ;line 3
+MOV #4 ,56 ;line 4
+MOV #5 ,34 ;line 5
+MOV #6 ,56 ;line 6
+MOV #7 ,89 ;line 7
+MOV #8 ,32 ;line 8
+MOV #9 ,45 ;line 9
+MOV #10 ,25 ;line 10
+MOV #11 ,30 ;line 11
+MOV #12 ,23 ;line 12
+MOV #13 ,4  ;line 13
+MOV #14 ,56 ;line 14
+MOV #15 ,34 ;line 15
+MOV #16 ,56 ;line 16
+MOV #17 ,89 ;line 17
+MOV #18 ,32 ;line 18
+MOV #19 ,45 ;line 19
+MOV #20 ,25 ;line 20
+MOV R2 , 10 ; line 21 counter
+MOV #11, R1 ;line 22
+SUB R1, 1 ;line 23
+MOV R1, #11 ;line 24
+JMP R1, 63 ;line 25
+MOV #12, R1 ;line 26
+SUB R1, 1 ;line 27
+MOV R1, #12 ;line 28
+JMP R1, 67 ;line 29
+MOV #13, R1 ;line 30
+SUB R1, 1 ;line 31
+MOV R1, #13 ;line 32
+JMP R1, 71 ;line 33
+MOV #14, R1 ;line 34
+SUB R1, 1 ;line 35
+MOV R1, #14 ;line 36
+JMP R1, 75 ;line 37
+MOV #15, R1 ;line 38
+SUB R1, 1 ;line 39
+MOV R1, #15 ;line 40
+JMP R1, 79 ;line 41
+MOV #16, R1 ;line 42
+SUB R1, 1 ;line 43
+MOV R1, #16 ;line 44
+JMP R1, 83 ;line 45
+MOV #17, R1 ;line 46
+SUB R1, 1 ;line 47
+MOV R1, #17 ;line 48
+JMP R1, 87 ;line 49
+MOV #18, R1 ;line 50
+SUB R1, 1 ;line 51
+MOV R1, #18 ;line 52
+JMP R1, 91 ;line 53
+MOV #19, R1 ;line 54
+SUB R1, 1 ;line 55
+MOV R1, #19 ;line 56
+JMP R1, 95 ;line 57
+MOV #20, R1 ;line 58
+SUB R1, 1 ;line 59
+MOV R1, #20 ;line 60
+JMP R1, 99 ;line 61
+JMP 22 ;line 62 //fazlalık
+PRN #1 ; line 63
+SUB R2, 1 ; line 64
+JMP R2, 103 ;line 65
+JMP 22 ;line 66
+PRN #2 ; line 67
+SUB R2, 1 ; line 68
+JMP R2, 103 ;69
+JMP 22 ;line 70
+PRN #3 ; line 71
+SUB R2, 1 ; line 72
+JMP R2, 103 ;line 73
+JMP 22 ; line 74
+PRN #4 ; line 75
+SUB R2, 1 ; line 76
+JMP R2, 103 ;line 77
+JMP 22 ;line 78
+PRN #5 ; line 79
+SUB R2, 1 ; line 80
+JMP R2, 103 ;line 81
+JMP 22 ;line 82
+PRN #6 ; line 83
+SUB R2, 1 ; line 84
+JMP R2, 103 ;line 85
+JMP 22 ;line 86
+PRN #7 ; line 87
+SUB R2, 1 ; line 88
+JMP R2, 103 ;line 89
+JMP 22 ;line 90
+PRN #8 ; line 91
+SUB R2, 1 ; line 92
+JMP R2, 103 ;line 93
+JMP 22 ;line 94
+PRN #9 ; line 95
+SUB R2, 1 ; line 96
+JMP R2, 103 ;line 97
+JMP 22 ;line 98
+PRN #10 ; line 99
+SUB R2, 1 ; line 100
+JMP R2, 103 ;line 101
+JMP 22 ;line 102
+HLT ; line 103
+

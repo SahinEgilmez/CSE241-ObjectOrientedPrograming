@@ -1,0 +1,21 @@
+MOV #21, 1 ;
+MOV R1 , #21     ; line 1
+MOV #22,2 ;
+MOVR2, #22     ;line 2
+MOV #23, 2 ;
+MOVR3, #23;line 3
+MOV #24, 9
+MOV R4, #24    ;line 4
+ADD R1, R2 ;line 5
+SUB R3, 1     ;line 6
+JMP R3, 13    ;line 7
+JMP 9        ;line 8
+ADD R2, 1     ;line 9
+MOV R3, R2    ;line 10
+SUB R4, 1     ;line 11
+JMP R4, 18   ;line 12
+JMP 9        ;line 13
+PRN R1        ;line 14
+HLT          ;line 15
+
+
